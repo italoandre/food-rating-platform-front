@@ -31,7 +31,7 @@ export function Restaurants() {
     return (
       <div className="max-w-4xl mx-auto p-4">
         <div className="bg-red-50 text-red-500 p-4 rounded">
-          Erro ao carregar restaurantes
+          Error loading restaurants
         </div>
       </div>
     )
@@ -50,7 +50,7 @@ export function Restaurants() {
             <h2 className="text-xl font-semibold text-gray-900 mb-2">{restaurant.name}</h2>
             <p className="text-gray-600">{restaurant.address}</p>
             <div className="mt-4 flex items-center text-gray-500">
-              <span className="text-sm">Clique para ver detalhes</span>
+              <span className="text-sm">Click to see details</span>
             </div>
           </div>
         ))}
